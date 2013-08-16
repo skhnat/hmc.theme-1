@@ -1,22 +1,95 @@
-hr {
-  border: 0;
-  height: 100px;
-  background: -moz-linear-gradient(left center, transparent, #ffc000, transparent);
-  background: -webkit-gradient(linear, left center, right center,
-                               color-stop(0, transparent),
-                               color-stop(0.5, #ffc000),
-                               color-stop(1, transparent));
+body  {
+  background-color:#07121F;
+  color: #FFFFFF;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-size: 16px;
 }
 
+/*
+==================================================================================================================================================
+HEADER
+==================================================================================================================================================*/
 #header {
-  background-color: #ffc000;
+  background: -moz-linear-gradient(top,  rgba(255,192,0,0.69) 0%, rgba(255,138,21,0.69) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,192,0,0.69)), color-stop(100%,rgba(255,138,21,0.69))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ffc000', endColorstr='#b0ff8a15',GradientType=0 ); /* IE6-9 */
   height: 100px;
   position: relative;
   top: 50px;
 }
 
-img {
+img{
   position: relative;
-  top: -50px;
+  top: -55px;
   padding: 5px;
+}
+
+.pull-right.img-rounded {
+  position: relative
+  top: -40px;
+  padding: 5px;
+  left: 5px;
+  border:3px;
+}
+
+.pull-right.titleheader {
+  font-size: 22px;
+  line-height:1.2; 
+  font-weight: bold;
+  }
+
+/*
+==================================================================================================================================================
+Top and Navigation Bar
+==================================================================================================================================================*/  
+  
+button{
+  background-color: #D8D8D8;
+  color: #404040;
+  }
+  
+ /*Text should be white on hover.  I haven't 
+ done this yet.*/ 
+.navbar {
+   background-color: #0F243E;
+   font-size: 18px;
+   top: 10px; 
+}
+
+/*Dropdown ready to go, but I haven't applied 
+it to any tabs on the navbar yet.*/ 
+.dropdown-menu {
+  background-color: #D8D8D8;
+  color: #404040;
+}
+
+/*
+==================================================================================================================================================
+Content/Portlets/Footer
+==================================================================================================================================================*/  
+
+.col-lg-9 {
+   font-size: 16px;
+   float: left;
+   width: 840px;
+}
+
+.col-lg-3 {
+   background-color: rgba(23, 54, 93, 0.7);
+   font-size: 18px;
+   float: right; 
+   width: 350px;
+}
+
+/*Depending on what we put in the footer, I will
+adjust color and size until it looks good.*/
+#footer {
+  background-color: #0F243E;
+  height: 25px;
+  top: -20px;
+  font-size: 12px;
 }
