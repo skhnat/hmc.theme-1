@@ -48,8 +48,24 @@ Top and Navigation Bar
 ==================================================================================================================================================*/  
   
 button{
-  background-color: #D8D8D8;
-  color: #404040;
+  background: -moz-linear-gradient(top,  rgba(255,192,0,0.69) 0%, rgba(255,138,21,0.69) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,192,0,0.69)), color-stop(100%,rgba(255,138,21,0.69))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ffc000', endColorstr='#b0ff8a15',GradientType=0 ); /* IE6-9 */
+  color: #FFFFFF; 
+ }
+  
+.search.pull-right {
+  position: relative;
+  right: -140px;
+  top: 10px;
+}
+.login {
+  position: relative;
+  right: -135px;
   }
   
  /*Text should be white on hover.  I haven't 
