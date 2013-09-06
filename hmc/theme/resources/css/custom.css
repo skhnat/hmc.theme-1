@@ -19,7 +19,7 @@ HEADER
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ffc000', endColorstr='#b0ff8a15',GradientType=0 ); /* IE6-9 */
   height: 100px;
   position: relative;
-  top: 50px;
+  top: 10px;
 }
 
 img{
@@ -44,7 +44,7 @@ img{
 
 /*
 ==================================================================================================================================================
-Top and Navigation Bar
+Top Navigation Bar
 ==================================================================================================================================================*/  
   
 button{
@@ -58,31 +58,84 @@ button{
   color: #FFFFFF; 
  }
   
-.search.pull-right {
-  position: relative;
-  right: -140px;
-  top: 10px;
-}
-.login {
-  position: relative;
-  right: -135px;
-  }
-  
- /*Text should be white on hover.  I haven't 
- done this yet.*/ 
 .navbar {
    background-color: #0F243E;
    font-size: 18px;
    top: 10px; 
+   width: 950px;
+   border-radius: 3px;
 }
 
-/*Dropdown ready to go, but I haven't applied 
-it to any tabs on the navbar yet.*/ 
 .dropdown-menu {
   background-color: #D8D8D8;
   color: #404040;
 }
 
+/*
+==================================================================================================================================================
+Top Search Bar
+==================================================================================================================================================*/  
+
+.searchbar {
+   background-color: #0F243E;
+   position: relative;
+   font-size: 18px;
+   top: -60px;
+   float: right;
+   border-radius: 3px;
+ }
+ 
+ .search.pull-right {
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+.login {
+  position: relative;
+  }
+
+/*================================================================================================================================================
+Administration Bar (when logged in)
+==================================================================================================================================================*/
+
+.userbarleft {
+   background-color: #505050;
+   color: #FFFFFF;
+   font-size: 14px;
+   position: relative;
+   float:left;
+   top: -50px;
+   height: 25px;
+   border-radius: 3px;
+   width: 650px;
+   }
+   
+.userbarright {
+  background-color: #505050;
+  color: #FFFFFF;
+  font-size: 14px;
+  position: relative;
+  float:right;
+  top:-75px;
+  height: 25px;
+  border-radius: 3px;
+  width: 650px;
+   }
+ 
+ #UserBarLeft {
+   float:left;
+   }
+  
+ #UserBarRight {
+  float: right;
+  }
+   
+.nav-collapse.collapse.user {
+  position: relative;
+  top: -13px;
+  color: #FFFFFF;
+  } 
+  
 /*
 ==================================================================================================================================================
 Content/Portlets/Footer
@@ -92,12 +145,14 @@ Content/Portlets/Footer
    font-size: 16px;
    float: left;
    width: 840px;
+   top: -10px;
 }
 
 .col-lg-3 {
    background-color: rgba(23, 54, 93, 0.7);
    font-size: 18px;
    float: right; 
+   top: -25px;
    width: 350px;
 }
 
