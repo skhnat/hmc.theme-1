@@ -27,19 +27,16 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-
           <div id="navigation" class="row">
             <div class="navbar">
               <div class="container">
-
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-
                 <div class="nav-collapse collapse">
-                  <ul class="nav navbar-nav">
+                  <ul id="NavBar" class="nav navbar-nav">
                     <li class="active"><a href="#">home</a></li>
                     <li><a href="#about">projects</a></li>
                     <li><a href="#contact">lab members</a></li>
@@ -47,34 +44,119 @@
                     <li><a href="#meetings">meetings</a></li>
                     <li><a href="#contact">contact</a></li>
                     <li><a href="#sponsors">sponsors</a></li>
-                    <li class="search pull-right">
-                      <input type="text" placeholder="Search Site">
-                        <button type="submit"  class="btn">
-                          <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                      </input>
                     </li>
-                    <li class="login"><a href="#log in">log in </a></li>
                   </ul>
-
-                </div><!--/.nav-collapse -->
-
+                </div>
               </div>
             </div>
           </div>
 
+		<div class="container">
+          <div id="searchsite" class="row">
+            <div class="searchbar">
+              <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="nav-collapse collapse">
+                  <ul id="SearchBar" class="nav navbar-nav">
+        			<li class="search pull-right">
+                        <input type="text" placeholder="Search Site">
+                        <button type="submit"  class="btn"><span class="glyphicon
+                        glyphicon-search"></span></button></input></li>
+					<li class="login"><a href="#log in">log in </a></li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+			 
+	    <div class="container">
+		  <div id="administration" class="row">
+            <div class="userbarleft">
+              <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="nav-collapse collapse user">
+                  <ul id="UserBarLeft" class="nav navbar-nav">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">projects</a></li>
+                    <li><a href="#contact">lab members</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#meetings">meetings</a></li>
+				  <ul>
+				</div>
+			   </div>
+			 </div>
+	      </div>
+		</div>
+		
+		<div class="container">
+		  <div id="administration" class="row">
+            <div class="userbarright">
+              <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="nav-collapse collapse user">
+                  <ul id="UserBarRight" class="nav navbar-nav">
+                   <li id="Display" class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li> </ul>
+                    <li id="Add" class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li> </ul>
+                    <li id="State" class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li> </ul>
+                    </li>
+				  <ul>
+				</div>
+			   </div>
+			 </div>
+	      </div>
+		</div>
+                    
           <div id="header" class="row">
             <img class="pull-left" src="img/seal.png" height="200px" />
             <img class="pull-right img-rounded" src="img/lab.jpg" height="200px" />
-            <div class="pull-right titleheader">
-            <p>Parker Hannifin</p>
-            <p>Human Motion and</p>
-            <p>Control Laboratory</p>
-          </div>
-        </div>
+			<div class="pull-right titleheader">
+			  <p>Parker Hannifin </p>
+			  <p>Human Motion and</p>
+              <p>Control Laboratory</p>
+          </div> </div>
 
           <div id="content" class="row">
-            <div class="col-lg-9">
+            <div id="text" class="col-lg-9">
               <p>Assumenda keffiyeh quinoa, nesciunt artisan intelligentsia
               letterpress. Laborum velit raw denim bitters. Tote bag
               sustainable High Life keytar magna, irony church-key
@@ -105,8 +187,8 @@
               anim messenger bag aliquip ugh. Cillum lomo incididunt, tumblr
               four loko wolf tote bag nulla jean shorts keytar mumblecore.</p>
             </div>
-
-            <div class="col-lg-3">
+			
+         <div class="col-lg-3">
               <h3>Portlets</h3>
               <p>Biodiesel incididunt elit Odd Future asymmetrical laborum.
               Delectus fashion axe narwhal, laboris four loko pug keffiyeh tote
